@@ -16,6 +16,12 @@
 }
 
 .requirements {
-    height: 600px;
+    top: 10%;
+    height: 10000px;
     background-color: #837872;
+}
+
+.camera{
+    position: fixed;
+    height: 600px;
 }
