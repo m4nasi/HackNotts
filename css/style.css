@@ -1,0 +1,21 @@
+.logo {
+    color: #FFFFFF;
+    background-color: #235347;
+    height: 100px;
+}
+
+.name {
+    background-color: #47c6be;
+    color: #FFFFFF;
+    height:100px;
+}
+
+.account {
+    background-color: #ca19b0;
+    height: 100px;
+}
+
+.requirements {
+    height: 600px;
+    background-color: #837872;
+}
