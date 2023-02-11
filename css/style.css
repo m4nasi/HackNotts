@@ -1,23 +1,23 @@
 .logo {
     color: #FFFFFF;
     background-color: #235347;
-    height: 100px;
+    height: 14vh;
 }
 
 .name {
     background-color: #47c6be;
     color: #FFFFFF;
-    height:100px;
+    height:14vh;
 }
 
 .account {
     background-color: #ca19b0;
-    height: 100px;
+    height:14vh;
 }
 
 .requirements {
     top: 10%;
-    height: 10000px;
+    height: 100vh;
     background-color: #837872;
 }
 
