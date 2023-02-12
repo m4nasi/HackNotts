@@ -1,0 +1,40 @@
+.loginForm {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+.logo {
+    padding-top: 1%;
+    left: 0%;
+    height: 14vh;
+    width: 14vh;
+}
+
+.name {
+    color: #AD561B;
+    font-family: Bahnschrift SemiBold;
+    font-size: xx-large;
+    position: absolute;
+    left: 25%;
+    padding-top: 2%;
+    height:14vh;
+}
+
+.glyphicon {
+    font-family: Bahnschrift SemiBold;
+    font-size: x-large;
+    position: absolute;
+    left: 20%;
+    padding-top: 10%;
+    height:14vh;
+}
+
+.account1 {
+    font-family: Bahnschrift SemiBold;
+    font-size: x-large;
+    position: absolute;
+    padding-top: 9%;
+    left: 30%;
+    height:14vh;
+}
