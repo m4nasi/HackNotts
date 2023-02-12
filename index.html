@@ -35,7 +35,15 @@
         <div class="row">
             <div class="temp col-lg-9"></div>
             <div class="restrictions col-lg-3">DIETARY RESTRICTIONS
-              <form action="/take-in-restrictions" method="post">...</form>
+              <form action="/script" method="post">
+                <div class="restriction-box">
+                  <label for="Restrictions">Add your restrictions here! </label>
+                </div>
+                  <textarea id="Restrictions" name="message"></textarea>
+                  <div class="button">
+                    <button type="add">Add</button>
+                  </div>
+              </form>
             </div>
 
             <!-- Cameraaaaaaaaaaaaaaa -->
@@ -50,7 +58,7 @@
                 <img src="//:0" alt="" id="camera--output">
 
                 <!-- Camera Button-->
-                <button id="camera--trigger">click</button>
+                <button id="camera--trigger"></button>
             </main>
 
         </div>
