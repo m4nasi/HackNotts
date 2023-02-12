@@ -1,1 +1,4 @@
-{"manasi": ["manasi", "eggs", "milk", "wheat"]}
+{"abi@abi.com": ["abi", "soya", "eggs"]}
+{"manasi@manasi.com": ["manasi", "eggs", "milk", "wheat"]}
+{"nishi@nishi.com": ["nishi", "beef"]}
+{"harry@harry.com": ["harry", "prawn"]}
