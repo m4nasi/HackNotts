@@ -1,27 +1,80 @@
 .logo {
-    color: #FFFFFF;
-    background-color: #235347;
+    padding-top: 1%;
+    left: 0%;
     height: 14vh;
+    width: 14vh;
 }
 
 .name {
-    background-color: #47c6be;
-    color: #FFFFFF;
+    color: #AD561B;
+    font-family: Bahnschrift SemiBold;
+    font-size: xx-large;
+    position: absolute;
+    left: 25%;
+    padding-top: 2%;
     height:14vh;
 }
 
-.account {
-    background-color: #ca19b0;
+.glyphicon {
+    font-family: Bahnschrift SemiBold;
+    font-size: x-large;
+    position: absolute;
+    left: 20%;
+    padding-top: 10%;
     height:14vh;
 }
 
-.requirements {
+.account1 {
+    font-family: Bahnschrift SemiBold;
+    font-size: x-large;
+    position: absolute;
+    padding-top: 9%;
+    left: 30%;
+    height:14vh;
+}
+
+.restrictions {
     top: 10%;
     height: 100vh;
-    background-color: #837872;
+    
+    font-family: Bahnschrift SemiBold;
+    font-size: x-large;
+    position: absolute;
+    padding-top: 2%;
+    left: 2%;
 }
 
-.camera{
+#camera, #camera--view, #camera--sensor, #camera--output{
+    position: absolute;
+    left: 0%;
+    height: 100vh;
+    width: 155.5vh;
+   
+    object-fit: cover;
+}
+
+#camera--trigger{
+    width: 100px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border-radius: 30px;
+    border: none;
+    padding: 15px 20px;
+    text-align: center;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
     position: fixed;
-    height: 600px;
+    bottom: 30px;
+    left: 65vh;
+}
+
+.taken {
+    height: 100px!important;
+    width: 100px!important;
+    transition: all 0.5s ease-in;
+    border: solid 3px white;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+    top: 20px;
+    right: 20px;
+    z-index: 2;
 }
